@@ -20,3 +20,23 @@ The user is unable to view the HD Space/RAM usage and running processes in a ser
 3. Currently Running Services with their PIDs.
 4. Timestamp: when the data was fetched
 5. The NodeJs Server should run in UTC time only.
+
+**Solution**
+Please find the solution to the above-mentioned issue in the repository. 
+Setting up the repo is very easy, just clone the repo and run the command 
+
+1. npm install
+2. npm start
+
+I have used NodeJs as the programming language and its express package for managing the logic of the route. 
+I believe that there is no point in using the database for this GET API solution 
+because this kind of data is very dynamic and will change very frequently. 
+API Endpoint - /resources
+API verb - GET
+
+Functionality - 
+To fetch the available RAM details I used the nodeJS inbuilt os module 
+For Hard disk, I had to use diskusuage because its implementation was very simple and straightforward.
+For listing the drives on the hard disk, I had to use the nodeJs **child process** module and used the **df** command to get all the data 
+FYI - I built this API in Mac, so my solution might perfectly work for Mac/Linux but there will be some tweaks required for the Windows system 
+For processes, I have used the ps-list package
