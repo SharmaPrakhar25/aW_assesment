@@ -39,3 +39,9 @@ For Hard disk, I had to use @@diskusuage@@ because its implementation was very s
 For listing the drives on the hard disk, I had to use the nodeJs @child process@ module and used the **df** command to get all the data <br>
 FYI - I built this API in Mac, so my solution might perfectly work for Mac/Linux but there will be some tweaks required for the Windows system 
 For processes, I have used the ps-list package
+
+Sample output <br>
+![Pasted Graphic 2](https://github.com/SharmaPrakhar25/aW_assesment/assets/23356457/43551c76-fcdd-4406-9a78-6e383cdf8a04)
+![Pasted Graphic](https://github.com/SharmaPrakhar25/aW_assesment/assets/23356457/505973c2-9278-455d-9552-9d624b1076f2)
+![Pasted Graphic 1](https://github.com/SharmaPrakhar25/aW_assesment/assets/23356457/7869dba3-f9b3-41d4-b31c-4f379462575f)
+
