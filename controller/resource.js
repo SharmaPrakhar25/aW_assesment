@@ -14,7 +14,6 @@ const {
 } = require('../config/constant');
 
 const representableProcessData = (processes) => processes.map((process) => ({
-  // there are other fields as well but they have been removed the fasten the output
   pid: process.pid,
   name: process.name,
 }));
